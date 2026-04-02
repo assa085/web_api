@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="UI/UI.csproj" />
+  <Project Path="web_api/web_api.csproj">
+    <BuildDependency Project="UI/UI.csproj" />
+  </Project>
+</Solution>

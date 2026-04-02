@@ -1,0 +1,264 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\code\\cs\\web_api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0265BF54-A83F-D408-908B-E99BF2F519F8}|web_api\\web_api.csproj|d:\\code\\cs\\web_api\\web_api\\controllerrequest .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0265BF54-A83F-D408-908B-E99BF2F519F8}|web_api\\web_api.csproj|solutionrelative:web_api\\controllerrequest .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0265BF54-A83F-D408-908B-E99BF2F519F8}|web_api\\web_api.csproj|d:\\code\\cs\\web_api\\web_api\\sqlcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0265BF54-A83F-D408-908B-E99BF2F519F8}|web_api\\web_api.csproj|solutionrelative:web_api\\sqlcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0265BF54-A83F-D408-908B-E99BF2F519F8}|web_api\\web_api.csproj|d:\\code\\cs\\web_api\\web_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0265BF54-A83F-D408-908B-E99BF2F519F8}|web_api\\web_api.csproj|solutionrelative:web_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B286F5E-1DA4-C61D-7861-80C46E44F0B3}|UI\\UI.csproj|d:\\code\\cs\\web_api\\ui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B286F5E-1DA4-C61D-7861-80C46E44F0B3}|UI\\UI.csproj|solutionrelative:ui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B286F5E-1DA4-C61D-7861-80C46E44F0B3}|UI\\UI.csproj|d:\\code\\cs\\web_api\\ui\\jsondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B286F5E-1DA4-C61D-7861-80C46E44F0B3}|UI\\UI.csproj|solutionrelative:ui\\jsondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B286F5E-1DA4-C61D-7861-80C46E44F0B3}|UI\\UI.csproj|d:\\code\\cs\\web_api\\ui\\senderrequests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B286F5E-1DA4-C61D-7861-80C46E44F0B3}|UI\\UI.csproj|solutionrelative:ui\\senderrequests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B286F5E-1DA4-C61D-7861-80C46E44F0B3}|UI\\UI.csproj|d:\\code\\cs\\web_api\\ui\\mainwindow.xaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{5B286F5E-1DA4-C61D-7861-80C46E44F0B3}|UI\\UI.csproj|solutionrelative:ui\\mainwindow.xaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B286F5E-1DA4-C61D-7861-80C46E44F0B3}|UI\\UI.csproj|d:\\code\\cs\\web_api\\ui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5B286F5E-1DA4-C61D-7861-80C46E44F0B3}|UI\\UI.csproj|solutionrelative:ui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0265BF54-A83F-D408-908B-E99BF2F519F8}|web_api\\web_api.csproj|d:\\code\\cs\\web_api\\web_api\\web_api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0265BF54-A83F-D408-908B-E99BF2F519F8}|web_api\\web_api.csproj|solutionrelative:web_api\\web_api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B286F5E-1DA4-C61D-7861-80C46E44F0B3}|UI\\UI.csproj|d:\\code\\cs\\web_api\\ui\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B286F5E-1DA4-C61D-7861-80C46E44F0B3}|UI\\UI.csproj|solutionrelative:ui\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B286F5E-1DA4-C61D-7861-80C46E44F0B3}|UI\\UI.csproj|d:\\code\\cs\\web_api\\ui\\ui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5B286F5E-1DA4-C61D-7861-80C46E44F0B3}|UI\\UI.csproj|solutionrelative:ui\\ui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B286F5E-1DA4-C61D-7861-80C46E44F0B3}|UI\\UI.csproj|d:\\code\\cs\\web_api\\ui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5B286F5E-1DA4-C61D-7861-80C46E44F0B3}|UI\\UI.csproj|solutionrelative:ui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ControllerRequest .cs",
+              "DocumentMoniker": "D:\\code\\cs\\web_api\\web_api\\ControllerRequest .cs",
+              "RelativeDocumentMoniker": "web_api\\ControllerRequest .cs",
+              "ToolTip": "D:\\code\\cs\\web_api\\web_api\\ControllerRequest .cs",
+              "RelativeToolTip": "web_api\\ControllerRequest .cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAIwFwAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T18:37:20.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UI",
+              "DocumentMoniker": "D:\\code\\cs\\web_api\\UI\\UI.csproj",
+              "RelativeDocumentMoniker": "UI\\UI.csproj",
+              "ToolTip": "D:\\code\\cs\\web_api\\UI\\UI.csproj",
+              "RelativeToolTip": "UI\\UI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-02T14:21:52.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "D:\\code\\cs\\web_api\\UI\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "UI\\AssemblyInfo.cs",
+              "ToolTip": "D:\\code\\cs\\web_api\\UI\\AssemblyInfo.cs",
+              "RelativeToolTip": "UI\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-01T08:10:39.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\code\\cs\\web_api\\UI\\App.xaml",
+              "RelativeDocumentMoniker": "UI\\App.xaml",
+              "ToolTip": "D:\\code\\cs\\web_api\\UI\\App.xaml",
+              "RelativeToolTip": "UI\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-01T08:10:38.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\code\\cs\\web_api\\UI\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "UI\\MainWindow.xaml",
+              "ToolTip": "D:\\code\\cs\\web_api\\UI\\MainWindow.xaml",
+              "RelativeToolTip": "UI\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-01T07:50:10.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SQLController.cs",
+              "DocumentMoniker": "D:\\code\\cs\\web_api\\web_api\\SQLController.cs",
+              "RelativeDocumentMoniker": "web_api\\SQLController.cs",
+              "ToolTip": "D:\\code\\cs\\web_api\\web_api\\SQLController.cs",
+              "RelativeToolTip": "web_api\\SQLController.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAAAFUAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-01T11:31:40.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\code\\cs\\web_api\\UI\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "UI\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\code\\cs\\web_api\\UI\\MainWindow.xaml.cs",
+              "RelativeToolTip": "UI\\MainWindow.xaml.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAIwDUAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-01T07:50:10.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "JsonData.cs",
+              "DocumentMoniker": "D:\\code\\cs\\web_api\\UI\\JsonData.cs",
+              "RelativeDocumentMoniker": "UI\\JsonData.cs",
+              "ToolTip": "D:\\code\\cs\\web_api\\UI\\JsonData.cs",
+              "RelativeToolTip": "UI\\JsonData.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAiwDAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-01T10:54:33.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\code\\cs\\web_api\\web_api\\Program.cs",
+              "RelativeDocumentMoniker": "web_api\\Program.cs",
+              "ToolTip": "D:\\code\\cs\\web_api\\web_api\\Program.cs",
+              "RelativeToolTip": "web_api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-01T07:42:36.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "web_api.csproj",
+              "DocumentMoniker": "D:\\code\\cs\\web_api\\web_api\\web_api.csproj",
+              "RelativeDocumentMoniker": "web_api\\web_api.csproj",
+              "ToolTip": "D:\\code\\cs\\web_api\\web_api\\web_api.csproj",
+              "RelativeToolTip": "web_api\\web_api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-01T07:47:05.067Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "fdf461ee-44ff-4ecb-bfbe-3d37116cb97b",
+        "Display": 1,
+        "X": -90,
+        "Y": 77,
+        "Width": 1551,
+        "Height": 644,
+        "WindowState": 2
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SenderRequests.cs",
+              "DocumentMoniker": "D:\\code\\cs\\web_api\\UI\\SenderRequests.cs",
+              "RelativeDocumentMoniker": "UI\\SenderRequests.cs",
+              "ToolTip": "D:\\code\\cs\\web_api\\UI\\SenderRequests.cs",
+              "RelativeToolTip": "UI\\SenderRequests.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAqwFIAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T14:36:09.08Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "c717867a-0bac-4c06-a265-dffd4d0023bc",
+        "Display": 1,
+        "X": 0,
+        "Y": 60,
+        "Width": 800,
+        "Height": 600,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\code\\cs\\web_api\\UI\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "UI\\MainWindow.xaml",
+              "ToolTip": "D:\\code\\cs\\web_api\\UI\\MainWindow.xaml",
+              "RelativeToolTip": "UI\\MainWindow.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-02T18:13:31.5Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
