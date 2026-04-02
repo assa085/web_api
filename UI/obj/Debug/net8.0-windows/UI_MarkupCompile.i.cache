@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\code\cs\web_api\UI\obj\Debug\net8.0-windows\
+D:\code\cs\web_api\web_api\UI\obj\Debug\net8.0-windows\
 UI
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
-D:\code\cs\web_api\UI\App.xaml
+D:\code\cs\web_api\web_api\UI\App.xaml
 11407045341
 
 8-1911101710
 198185795992
 MainWindow.xaml;
 
-True
+False
 

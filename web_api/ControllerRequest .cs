@@ -10,7 +10,6 @@ namespace web_api
 
         private static readonly Dictionary<string, Func<object>> Routes = new()
         {
-            //["/status"] = () => new { Status = "OK", Time = GetTime() },
             ["/status"] = () => GetStatus(),
             ["/get_SQL_version"] = () => GetSQLVersion(),
             ["/connect_db"] = () => ConnectDB(),
@@ -38,7 +37,7 @@ namespace web_api
                 return new { 
                     Status = "ERROR", 
                     Info = "Connset SQL DB", 
-                    Error = status.Exception.ToString() ?? "Status = null",
+                    Error = status.Exception?.ToString() ?? "Status = null",
                     Time = GetTime() 
                 };
             }
@@ -73,7 +72,7 @@ namespace web_api
             }
             else
             {
-                var errorStr = statucConnect.ToString();
+                var errorStr = statucConnect.Exception?.Message ?? "Message = null, unknown error";
                 return new { Status = "ERROR", Info = "Connset SQL DB", Error = errorStr, Time = GetTime() };
             }
         } 
@@ -90,7 +89,7 @@ namespace web_api
                 {
                     Status = "ERROR",
                     Info = "Get status",
-                    Error = statuc.Exception.ToString() ?? "Status = null",
+                    Error = statuc.Exception?.ToString() ?? "Status = null",
                     Time = GetTime()
                 };
             }

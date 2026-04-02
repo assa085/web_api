@@ -11,10 +11,10 @@ namespace web_api
         {
             public Exception? Exception { get; set; }
             public bool Status { get; set; }
-            public string Content { get; set; }
+            public string? Content { get; set; }
         }
 
-        static SqlConnection _connection;
+        private static SqlConnection? _connection;
         private static readonly string _connString = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=WEB_API;Integrated Security=True;TrustServerCertificate=True;";
         public static readonly string ErrorConnectionNull = "Ошибка: Соединение не установлено.";
 
@@ -43,6 +43,11 @@ namespace web_api
                 if(_connection == null)
                 {
                     _connection = new SqlConnection(_connString);
+                }
+
+                if (_connection.ConnectionString == string.Empty)
+                {
+                    _connection.ConnectionString = _connString;
                 }
 
                 if (_connection.State == ConnectionState.Open)

@@ -68,9 +68,9 @@ namespace UI
                 }
                 throw new Exception(response.StatusCode.ToString());
             }
-            catch (Exception ex)
+            catch (Exception)
             {
-                throw ex;
+                throw;
             }
         }
         List<JsonData> CraftObjkt(System.Text.Json.JsonElement data)
