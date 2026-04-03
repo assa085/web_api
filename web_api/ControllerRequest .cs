@@ -1,7 +1,5 @@
-﻿using System.Net.NetworkInformation;
-using System.Text.Json;
+﻿using System.Text.Json;
 using System.Text.Json.Nodes;
-using System.Timers;
 
 namespace web_api
 {
