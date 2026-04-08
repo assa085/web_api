@@ -15,18 +15,19 @@ namespace UI
             InitializeComponent();
             this.SizeToContent = SizeToContent.WidthAndHeight;
 
+
             _senderRequests = new SenderRequests("http://localhost:5000");
         }
 
         private async void ButtonGetApi_Click(object sender, RoutedEventArgs e)
         {
-            var data = new MessageData("/status");
+            var data = "/status";
             await SendRequestAsync(data, ButtonGetApi);
         }
         
         private async void ButtonGetSQLVersion_Click(object sender, RoutedEventArgs e)
         {
-            var data = new MessageData("/get_SQL_version");
+            var data = "/version";
             await SendRequestAsync(data, ButtonGetSQLVersion);
         }
 
@@ -35,12 +36,12 @@ namespace UI
             Clipboard.SetText(TB.Text);
         }
 
-        async Task UpdateUiWithRequestAsync(MessageData data)
+        async Task UpdateUiWithRequestAsync(string data)
         {
             TB.Text = WaitingResponse;
             TB.Text = await _senderRequests.GetRequest(data);
         }
-        async Task SendRequestAsync(MessageData data,Button button)
+        async Task SendRequestAsync(string data,Button button)
         {
             button.IsEnabled = false;
             await UpdateUiWithRequestAsync(data);
@@ -55,9 +56,9 @@ namespace UI
                 try
                 {
                     bool isConnected = await _senderRequests.GetStatus();
-                    string path = isConnected ? "/disconnect_db" : "/connect_db";
+                    string path = "/connect";
 
-                    await UpdateUiWithRequestAsync(new MessageData(path));
+                    await UpdateUiWithRequestAsync(path);
 
                     btn.IsChecked = await _senderRequests.GetStatus();
                 }
@@ -72,7 +73,6 @@ namespace UI
                
             }
         }
-        public record MessageData(string Text);
 
     }
 }

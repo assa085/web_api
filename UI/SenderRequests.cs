@@ -17,7 +17,7 @@ namespace UI
         }
         public async Task<bool> GetStatus()
         {
-            var data = new MessageData("/status");
+            var data = new string("/status");
             var jsons = await GetJsons(data);
 
             if (jsons == null || jsons.Count == 0)
@@ -31,7 +31,7 @@ namespace UI
             }
             return true;
         }
-        public async Task<string> GetRequest(MessageData data)
+        public async Task<string> GetRequest(string data)
         {
             try
             {
@@ -49,11 +49,12 @@ namespace UI
                 return $"Ошибка связи: {ex.Message}";
             }
         }
-        async Task<List<JsonData>> GetJsons(MessageData data)
+        async Task<List<JsonData>> GetJsons(string data)
         {
+            var payload = new { Text = data };
             try
             {
-                var response = await _httpClient.PostAsJsonAsync("/api/data", data);
+                var response = await _httpClient.PostAsJsonAsync("/api/data", payload);
 
                 if (response.IsSuccessStatusCode)
                 {

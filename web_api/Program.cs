@@ -1,21 +1,24 @@
 ﻿using web_api;
-class Program
+
+var builder = WebApplication.CreateBuilder(args);
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection")
+                       ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
+builder.Services.AddScoped<SqlDataService>();
+
+var app = builder.Build();
+
+app.MapPost("/api/data", (Message data, SqlDataService sqlService) =>
 {
-    static void Main(string[] args)
+    if (data.Text == string.Empty)
     {
-        var builder = WebApplication.CreateBuilder(args);
-        var app = builder.Build();
-
-        app.MapPost("/api/data", (MessageData data) =>
-        { 
-            var message = data.Text.StartsWith("/") ? data.Text : "/" + data.Text;
-
-            var result = ControllerRequest.GetContent(message);
-            return Results.Ok(result);
-        });
-
-        app.Run("http://localhost:5000");
-
+        return Results.BadRequest("Text is required");
     }
-    public record MessageData(string Text);
-}
+    var command = data.Text.StartsWith("/") ? data.Text : "/" + data.Text;
+
+    var result = sqlService.ExecuteCommand(command);
+    return Results.Ok(result);
+});
+
+app.Run();
+public record Message(string? Text);
+
